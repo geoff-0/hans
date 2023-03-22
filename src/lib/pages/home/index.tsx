@@ -1,13 +1,10 @@
-import { Flex } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 import { NextSeo } from 'next-seo';
-
-import CTASection from '~/lib/components/samples/CTASection';
-import SomeImage from '~/lib/components/samples/SomeImage';
-import SomeText from '~/lib/components/samples/SomeText';
 
 const Home = () => {
   return (
     <Flex
+      backgroundColor="brand.primary"
       direction="column"
       alignItems="center"
       justifyContent="center"
@@ -17,9 +14,7 @@ const Home = () => {
       w="full"
     >
       <NextSeo title="Home" />
-      <SomeText />
-      <SomeImage />
-      <CTASection />
+      <Box></Box>
     </Flex>
   );
 };
