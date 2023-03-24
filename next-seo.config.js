@@ -1,25 +1,23 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  title: "nextarter-chakra",
-  titleTemplate: "%s | nextarter-chakra",
-  defaultTitle: "nextarter-chakra",
-  description: "Next.js + chakra-ui + TypeScript template",
-  canonical: "https://nextarter-chakra.sznm.dev",
+  titleTemplate: '%s | Hans Kim',
+  description: 'A big player in the comedy and social networking scene',
+  canonical: 'https://djhanskim.com',
   openGraph: {
-    url: "https://nextarter-chakra.sznm.dev",
-    title: "nextarter-chakra",
-    description: "Next.js + chakra-ui + TypeScript template",
+    url: 'https://djhanskim.com',
+    title: 'Hans Kim',
+    description: 'A big player in the comedy and social networking scene',
     images: [
       {
-        url: "https://og-image.sznm.dev/**nextarter-chakra**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250",
-        alt: "nextarter-chakra.sznm.dev og-image",
+        url: 'https://og-image.sznm.dev/**nextarter-chakra**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250',
+        alt: 'djhanskim.com og-image',
       },
     ],
-    site_name: "nextarter-chakra",
+    site_name: 'djhanskim.com',
   },
   twitter: {
-    handle: "@sozonome",
-    cardType: "summary_large_image",
+    handle: '@djhanskim',
+    cardType: 'summary_large_image',
   },
 };
 

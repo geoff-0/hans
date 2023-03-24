@@ -1,14 +1,20 @@
 import { Flex, Link, Text } from '@chakra-ui/react';
 
+import NextLink from 'next/link';
+
 const Footer = () => {
   return (
-    <Flex as="footer" width="full" justifyContent="center">
-      <Text fontSize="sm">
-        {new Date().getFullYear()} -{' '}
-        <Link href="https://sznm.dev" isExternal rel="noopener noreferrer">
-          sznm.dev
-        </Link>
-      </Text>
+    <Flex
+      as="footer"
+      width="full"
+      justifyContent="center"
+      bgColor="background.dark"
+    >
+      <Link as={NextLink} href="/" rel="noopener noreferrer" passHref>
+        <Text fontSize="sm" color="text.dark">
+          © {new Date().getFullYear()} - HANS KIM
+        </Text>
+      </Link>
     </Flex>
   );
 };
