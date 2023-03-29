@@ -10,8 +10,14 @@ const Footer = () => {
       justifyContent="center"
       bgColor="background.dark"
     >
-      <Link as={NextLink} href="/" rel="noopener noreferrer" passHref>
-        <Text fontSize="sm" color="text.dark">
+      <Link
+        as={NextLink}
+        href="/"
+        scroll={false}
+        rel="noopener noreferrer"
+        passHref
+      >
+        <Text fontSize="2vh" color="text.dark">
           © {new Date().getFullYear()} - HANS KIM
         </Text>
       </Link>

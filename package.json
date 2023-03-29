@@ -26,6 +26,7 @@
     "@fontsource/roboto": "^4.5.8",
     "@fontsource/roboto-slab": "^4.5.11",
     "@fontsource/teko": "^4.5.9",
+    "@react-icons/all-files": "^4.1.0",
     "framer-motion": "^8.5.5",
     "nanoid": "^4.0.1",
     "next": "^13.2.3",
@@ -34,7 +35,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "sass": "^1.60.0"
+    "sass": "^1.60.0",
+    "simple-icons": "^8.8.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.31.1",

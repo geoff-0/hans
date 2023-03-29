@@ -1,10 +1,24 @@
-import '@fontsource/fjalla-one/400.css';
+import '@fontsource/fjalla-one';
 
-import '@fontsource/teko';
+// import '@fontsource/teko';
 
-import '@fontsource/roboto';
+import '@fontsource/teko/500.css';
 
-import '@fontsource/montserrat';
+import '@fontsource/teko/700.css';
+
+import '@fontsource/roboto/400.css';
+
+import '@fontsource/roboto/500.css';
+
+import '@fontsource/roboto/700.css';
+
+import '@fontsource/montserrat/400.css';
+
+import '@fontsource/montserrat/500.css';
+
+import '@fontsource/montserrat/600.css';
+
+import '@fontsource/montserrat/700.css';
 
 import { ChakraProvider } from '@chakra-ui/react';
 
