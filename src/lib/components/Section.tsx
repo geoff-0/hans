@@ -25,7 +25,7 @@ export default function Section({
       flexDir="column"
       id={sectionId}
       py="5vh"
-      px="0"
+      px="5vw"
       w="full"
       dir="column"
       whiteSpace="nowrap"

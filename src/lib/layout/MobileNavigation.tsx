@@ -9,6 +9,7 @@ import {
   useDisclosure,
   VStack,
 } from '@chakra-ui/react';
+import { useRouter } from 'next/router';
 import IconLink from '../components/navigation/IconLink';
 import NavbarLink from '../components/navigation/NavbarLink';
 import SocialsRow from '../components/SocialsRow';
@@ -18,6 +19,8 @@ import LogoHeadIcon from '../icons/LogoHeadIcon';
 
 export default function MobileNavigation() {
   const { isOpen, onOpen, onClose, onToggle } = useDisclosure();
+
+  const router = useRouter();
 
   const HamburgerIcon = () => (
     <HamburgerMenuIcon
@@ -101,42 +104,49 @@ export default function MobileNavigation() {
               <NavbarLink
                 label="HOME"
                 href={'/'}
-                styles={{ fontSize: '1em' }}
+                styles={{
+                  fontSize: '1em',
+                  onClick: () => {
+                    if (router.pathname == '/') {
+                      scrollTo(0, 0);
+                    }
+                  },
+                }}
               />
 
               <NavbarLink
                 label="TOUR"
-                href="#tour"
+                href="/tour"
                 styles={{ fontSize: '1em' }}
               />
 
               <NavbarLink
                 label="PODCAST"
-                href="#podcast"
+                href="/#podcast"
                 styles={{ fontSize: '1em' }}
               />
 
               <NavbarLink
                 label="PICTURES"
-                href="#pictures"
+                href="/#pictures"
                 styles={{ fontSize: '1em' }}
               />
 
               <NavbarLink
                 label="STORE"
-                href="#store"
+                href="/store"
                 styles={{ fontSize: '1em' }}
               />
 
               <NavbarLink
                 label="CONTACT"
-                href="#contact"
+                href="/contact"
                 styles={{ fontSize: '1em' }}
               />
 
               <NavbarLink
                 label="BLOG"
-                href="#blog"
+                href="/blog"
                 styles={{ fontSize: '1em' }}
               />
 

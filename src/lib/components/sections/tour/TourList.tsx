@@ -1,4 +1,5 @@
 import { Button, VStack } from '@chakra-ui/react';
+import { nanoid } from 'nanoid';
 
 import TourEntry from './TourEntry';
 
@@ -39,6 +40,7 @@ export default function TourList() {
           city={tourData.city}
           place={tourData.place}
           link={tourData.link}
+          key={nanoid()}
         />
       ))}
     </VStack>

@@ -4,7 +4,7 @@ import TourList from '~/lib/components/sections/tour/TourList';
 
 export default function Tour() {
   return (
-    <Flex minH="75vh" px="15vw">
+    <Flex minH="75vh">
       <Section sectionTitle="UPCOMING DATES">
         <TourList />
       </Section>
