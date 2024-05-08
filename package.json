@@ -13,9 +13,9 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.5.1",
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@fontsource/domine": "^4.5.10",
     "@fontsource/fjalla-one": "^4.5.9",
     "@fontsource/martel": "^4.5.10",

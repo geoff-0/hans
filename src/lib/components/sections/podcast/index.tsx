@@ -8,7 +8,11 @@ import NextLink from 'next/link';
 
 import NextImage from 'next/image';
 
+import { useColorMode } from '@chakra-ui/react'
+
 export default function Podcast() {
+  const { colorMode } = useColorMode()
+
   return (
     <Section sectionId="podcast" sectionTitle="Hans Kim Podcast">
       <Flex flexDir={{ base: 'column', md: 'row' }} gap={'7vw'}>
@@ -32,7 +36,7 @@ export default function Podcast() {
           justify="center"
           align="center"
         >
-          <Text>
+          <Text color={colorMode === 'light' ? 'text.dark' : 'text.light'}>
             The Hans Kim Podcasts are a bunch of podcasts done whenever Hans Kim
             decides to wake up and do something with his life. It is the easiest
             thing in the world, yet it still takes some effort, so it is an

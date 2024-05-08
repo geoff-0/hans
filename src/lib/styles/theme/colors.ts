@@ -20,7 +20,7 @@ const extendedColors = {
   },
 
   text: {
-    light: '#ffffff',
+    light: '#000',
     dark: 'white',
   },
 };
