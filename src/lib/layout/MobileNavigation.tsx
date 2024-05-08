@@ -6,7 +6,7 @@ import {
   Flex,
   HStack,
   Icon,
-  useDisclosure,-= 
+  useDisclosure,
   VStack,
 } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
